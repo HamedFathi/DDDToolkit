@@ -2,6 +2,9 @@ using System.Threading.Tasks;
 
 namespace DDDToolkit.Cqrs
 {
+    // Cqrs.Behaviours.Caching
+    // Cqrs.Behaviours.ErrorHandler
+    // Cqrs.Behaviours.Validation
     public interface ICommandQueryManager
     {
         Task Send(ICommand command);
